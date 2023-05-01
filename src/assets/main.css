@@ -1,0 +1,183 @@
+@import './base.css';
+
+/* Clases de Vitico - Skrrt */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0;
+}
+
+.logo-container {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container input {
+  padding: 0.5rem;
+  border: 0;
+}
+
+.promo-container {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-container img {
+  max-width: 340px;
+}
+
+.logo-container img, .search-container input, .promo-container img{
+  width: 100%;
+}
+
+.products-wrapper {
+  width: 100%;
+}
+
+.products-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-wrapper .cards-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 3rem;
+}
+
+.products-wrapper .cards-wrapper .product {
+  width: 20%;
+}
+
+.products-wrapper .cards-wrapper .product img {
+  width: 100%;
+}
+
+.banner-slider {
+  width: 100%;
+  max-width: 1378px;
+  margin: 0 auto;
+}
+
+.products-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+
+.double-categories , .double-categories > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.double-categories > div, .shops-menu > div {
+  width: 100%;
+  max-width: 1280px;
+}
+
+.double-categories > div .new-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.double-categories > div .new-cards .left, .double-categories > div .new-cards .right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shops-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+
+/* Resets y helpers */
+header {
+  width: 100%;
+  background-color: #fef046;
+}
+
+img {
+  height: auto;
+}
+
+.xpress-wrapper {
+  background-color: #000;
+}
+
+.xpress-main-title {
+  color: #c11928;
+}
+
+#app {
+  width: 100%;
+  /* max-width: 1280px; */
+  /* width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: normal;
+  display: flex;
+  background-color: rgb(239 239 239 / 81%); */
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+.banner-slider img {
+  width: 100%;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem; */
+  }
+}
